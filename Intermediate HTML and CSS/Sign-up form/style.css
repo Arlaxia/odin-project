@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Norse-Bold;
+  src: url("assets/fonts/Norse-Bold.otf");
+}
+
+h1 {
+  font-family: Norse-Bold;
+}
+
+div {
+  background: url("/assets/img/background-image.jpg") left top/contain;
+}
