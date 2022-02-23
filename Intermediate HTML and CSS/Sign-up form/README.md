@@ -12,5 +12,6 @@ After that, we can start working on the differents sections. I decided to start 
 ## Concepts applied from this section
 - CSS Default Styles: Used 'The Meyer Reset' to reset the default styles
 - CSS Units: used *rem* units for the title so that the texts adjusts its size responsively
+- CSS Variables: used the :root pseudo-selector to set some variables. For example, in the ODIN title in the aside, it's useful that both the text and the icon/image have the same size.
 
 ## Difficulties
