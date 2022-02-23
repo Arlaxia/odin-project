@@ -1,1 +1,47 @@
+:root {
+  --dark-bg-color: #1f2937;
+  --hero-main-text: #f9faf8;
+  --hero-sec-text: #e5e7eb;
+  --header-logo-text: #f9faf8;
+  --btn-color: #3882f6;
+  --info-header-text: #1f2937;
+  --quote-bg: #e5e7eb;
+  --quote-text: #1f2937;
 
+  font-family: Roboto, sans-serif;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: var(--dark-bg-color);
+  height: 60px;
+}
+
+.links {
+  color: var(--hero-sec-text);
+  font-size: 18px;
+
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.logo {
+  color: var(--header-logo-text);
+  height: 24px;
+  font-weight: bold;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Link reset */
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
