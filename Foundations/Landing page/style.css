@@ -11,6 +11,14 @@
   font-family: Roboto, sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+/* Header */
 .page-header {
   display: flex;
   justify-content: space-around;
@@ -37,6 +45,22 @@
 
   display: flex;
   align-items: center;
+}
+
+/* Main */
+main {
+  flex: 1;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--dark-bg-color);
+  color: var(--header-logo-text);
+  height: 70px;
 }
 
 /* Link reset */
