@@ -52,6 +52,46 @@ main {
   flex: 1;
 }
 
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  background-color: var(--dark-bg-color);
+  padding: 100px;
+}
+
+.hero-body {
+  max-width: 400px;
+  flex-shrink: 0;
+}
+
+.hero-body h2 {
+  color: var(--hero-main-text);
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.hero-body p {
+  color: var(--hero-sec-text);
+  margin-bottom: 10px;
+}
+
+.hero-body button {
+  background-color: var(--btn-color);
+  color: var(--hero-main-text);
+  border: none;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+
+.hero-image {
+  height: 200px;
+}
+
 /* Footer */
 .footer {
   display: flex;
